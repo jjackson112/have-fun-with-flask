@@ -9,4 +9,4 @@ def hello_world():
 
 # Run the flask server
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
